@@ -19,7 +19,7 @@ public class SecurityConfig {
 
     @SuppressWarnings("deprecation")
     @Bean
-    public NoOpPasswordEnconder passwordEnconder() {
-        return (NoOpPasswordEnconder) NoOpPasswordEnconder.getInstance();
+    public NoOpPasswordEncoder passwordEnconder() {
+        return (NoOpPasswordEncoder) NoOpPasswordEncoder.getInstance();
     }
 }
